@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Roboto", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------BEGIN HEADER--------------*/
+header {
+  background: #f55136;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 33% 1fr 1fr;
+  color: white;
+  align-self: center;
+}
+header div {
+  align-self: center;
+  text-align: center;
+}
+header div:nth-child(1) {
+  font-size: 27px;
+  font-weight: 700;
+}
+header div:nth-child(3) {
+  font-size: 2.3rem;
+  letter-spacing: 4px;
+  display: -webkit-inline-box;
+  background: linear-gradient(80deg, #f7755f 0%, #f55136 50%);
+  border-radius: 19px;
+  border-width: 0.5px 0.5px 0.5px 0.5px;
+  position: relative;
+  z-index: 1;
+}
+header div:nth-child(3) .join-span {
+  position: relative;
+  z-index: 2;
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(334deg);
+  -moz-transform: rotate(334deg);
+  -ms-transform: rotate(334deg);
+  -o-transform: rotate(334deg);
+  transform: rotate(334deg);
+}
+header div:nth-child(3) .fas {
+  font-size: 69px;
+}
+header .apply {
+  letter-spacing: 1px;
+  width: 260px;
+  height: 65px;
+  transform: skew(-15deg);
+  background: #ffffff;
+  color: red;
+  font-size: 14px !important;
+  text-align: center;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  -moz-box-shadow: 0px 0px 8px 2px #f3ebeb;
+  box-shadow: 0px 0px 8px 2px #f3ebeb;
+}
+header .apply:hover {
+  background: #00469a;
+  transition: 0.5s ease-in-out;
+}
+header .apply p {
+  margin: auto;
+  padding-top: 28px;
+  color: #c8272b;
+}
+header .apply p:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
