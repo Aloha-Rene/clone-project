@@ -53,6 +53,15 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
 /*------------BEGIN HEADER--------------*/
 header {
   background: #f55136;
@@ -83,7 +92,7 @@ header div:nth-child(3) {
 header div:nth-child(3) .join-span {
   position: relative;
   z-index: 2;
-  font-family: "Pacifico", cursive;
+  font-family: "Tangerine", cursive;
   font-weight: 700;
   font-size: 3rem;
   transform: rotate(-90deg);
@@ -112,15 +121,191 @@ header .apply {
 }
 header .apply:hover {
   background: #00469a;
-  transition: 0.5s ease-in-out;
+  transition: 0.6s ease-in-out;
+  color: white;
 }
 header .apply p {
-  margin: auto;
+  font-weight: bolder;
   padding-top: 28px;
-  color: #c8272b;
 }
 header .apply p:hover {
   color: white;
+}
+
+/*------------END HEADER--------------*/
+/*------------SHOPLOGO-SECTION--------------*/
+#logo-hours-review-appoinments {
+  margin-top: -30px;
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  align-items: center;
+}
+#logo-hours-review-appoinments .left-side {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+}
+#logo-hours-review-appoinments .left-side .autoshoplogo-area {
+  float: left;
+  position: relative;
+  right: 20px;
+  top: 40px;
+}
+#logo-hours-review-appoinments .left-side .autoshoplogo-area .logo {
+  float: right;
+  text-align: center;
+}
+#logo-hours-review-appoinments .left-side .autoshoplogo-area .logo span {
+  color: #d3261f;
+  font-size: 25px;
+  font-family: "Carter One", cursive;
+}
+#logo-hours-review-appoinments .left-side .autoshoplogo-area .logo .span0 {
+  color: #240f0c;
+  font-size: 25px;
+  font-family: "Carter One", cursive;
+}
+#logo-hours-review-appoinments .left-side .autoshoplogo-area .logo .span1 {
+  color: #240f0c;
+  font-size: 8px;
+}
+#logo-hours-review-appoinments .left-side .info-area {
+  width: 80%;
+  position: relative;
+  top: 30px;
+}
+#logo-hours-review-appoinments .left-side .info-area .hours-area {
+  float: left;
+}
+#logo-hours-review-appoinments .left-side .info-area .hours-area span {
+  font-weight: bolder;
+  font-size: 18px;
+}
+#logo-hours-review-appoinments .left-side .info-area .hours-area p {
+  margin-top: 3px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+#logo-hours-review-appoinments .right-side {
+  float: right;
+}
+#logo-hours-review-appoinments .right-side .reviews-area {
+  position: relative;
+  top: 24px;
+  float: left;
+}
+#logo-hours-review-appoinments .right-side .reviews-area .farmers-branch {
+  margin-right: 14px;
+  font-weight: bolder;
+  font-size: 18px;
+  text-decoration: none !important;
+}
+#logo-hours-review-appoinments .right-side .reviews-area .review-count {
+  font-size: 0.9rem;
+  float: right;
+  text-decoration: underline;
+  margin-left: 12px;
+  position: relative;
+  top: 3px;
+}
+#logo-hours-review-appoinments .right-side .stars-count {
+  float: right;
+  margin-top: 3px;
+}
+#logo-hours-review-appoinments .right-side .stars-count .fas {
+  color: #f55136;
+  margin-right: 5px;
+}
+#logo-hours-review-appoinments .right-side .appointments-area {
+  float: right;
+  letter-spacing: 1px;
+}
+#logo-hours-review-appoinments .right-side .appointments-area .appointments-text {
+  position: absolute;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-weight: 700;
+  width: 400px;
+  height: 65px;
+  transform: translate(8px, 0px) skew(-14deg, 0deg);
+  background: #00469a;
+  color: white;
+  font-size: 14px !important;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+#logo-hours-review-appoinments .right-side .appointments-area .appointments-text .text {
+  position: relative;
+  left: 50px;
+}
+#logo-hours-review-appoinments .right-side .appointments-area .appointments-text .text:hover {
+  background: linear-gradient(80deg, #f7755f 0%, #f55136 50%);
+  background: #f55136;
+  transition: 0.5s ease-in-out;
+}
+
+#nav-bar {
+  width: 100%;
+  margin-top: -30px;
+}
+#nav-bar .nav-links {
+  margin-left: 353px;
+}
+#nav-bar .nav-links ul li {
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  word-spacing: 0px;
+}
+#nav-bar .nav-links ul li:hover {
+  color: #f55136;
+  cursor: pointer;
+}
+#nav-bar .nav-links ul li:nth-child(1) {
+  color: #f55136;
+}
+#nav-bar .nav-links ul li:nth-child(9) {
+  margin-left: 60px;
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  color: black;
+}
+#nav-bar .nav-links ul li:nth-child(9) span {
+  color: blue;
+}
+#nav-bar .nav-links ul li:nth-child(9) span:hover {
+  color: #f55136;
+  cursor: pointer;
+}
+
+#top-section .tekashi-img {
+  margin: 0 auto;
+}
+
+#top-section .tekashi-img img {
+  max-width: 1420px;
+  height: 600px;
+}
+
+#top-section .floating-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top-section .floating-img .text {
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 3.3rem;
+  font-weight: 900;
+  right: 100;
+  bottom: -80px;
 }
 
 /*# sourceMappingURL=styles.css.map */
