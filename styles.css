@@ -2,19 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +92,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -34,16 +111,20 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -133,7 +214,7 @@ header .apply p:hover {
 }
 
 /*------------END HEADER--------------*/
-/*------------SHOPLOGO-SECTION--------------*/
+/*------------BEGIN SHOPLOGO-SECTION--------------*/
 #logo-hours-review-appoinments {
   margin-top: -30px;
   height: 200px;
@@ -306,6 +387,228 @@ header .apply p:hover {
   font-weight: 900;
   right: 100;
   bottom: -80px;
+}
+
+/*--------BEGIN BANNER SECTION-------*/
+#banner {
+  text-align: center;
+  margin-top: 60px;
+}
+#banner .container .banner-main h1 {
+  position: relative;
+  display: block;
+  color: #f55136;
+  font: 700 2em/1em "Rajdhani", Arial, sans-serif;
+}
+#banner .container .banner-main h2 {
+  margin-bottom: 0.5em;
+  color: #303030;
+  font: 400 1.5em/1.25em "Lato", Arial, sans-serif;
+  text-transform: uppercase;
+}
+#banner .container .banner-main h3 {
+  width: 80%;
+  margin: 0 auto 10px;
+  color: #303030;
+  font: 400 1em/1.94em "Lato", Arial, sans-serif;
+}
+#banner .container .banner-main h4 {
+  letter-spacing: 1px;
+  width: 260px;
+  height: 65px;
+  transform: skew(-15deg);
+  background: #f55136;
+  color: white;
+  font-size: 21px !important;
+  text-align: center;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 8px 2px #f55136;
+  -moz-box-shadow: 0px 0px 8px 2px #f55136;
+  box-shadow: 0px 0px 8px 2px #f55136;
+  font: 700 2rem "Rajdhani", Arial, sans-serif;
+}
+#banner .container .banner-main h4:hover {
+  cursor: pointer;
+  background: #00469a;
+  transition: 0.6s ease-in-out;
+  color: white;
+  -webkit-box-shadow: 0px 0px 8px 2px #00469a;
+  -moz-box-shadow: 0px 0px 8px 2px #00469a;
+  box-shadow: 0px 0px 8px 2px #00469a;
+}
+#banner .container .banner-main h4 .redeem-now {
+  position: relative;
+  top: 28px;
+  font-weight: 900;
+}
+
+/*------END BANNER SECTION---------------*/
+/*-----BEGIN COMPANY-PERKS SECTION-------*/
+#company-perks {
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  height: 551px;
+  width: 100%;
+  background: white;
+}
+#company-perks .technica img {
+  height: 350px !important;
+  width: 350px !important;
+  position: relative !important;
+  z-index: 11 !important;
+  float: right;
+  top: -242px;
+  transform: initial;
+  opacity: 1;
+  right: 70px;
+}
+#company-perks img {
+  position: absolute;
+  z-index: 0;
+  top: -112px;
+  width: 50%;
+  transform: rotate(-20deg);
+  right: 332px;
+  opacity: 0.3;
+}
+#company-perks .container {
+  border: 2px solid #1900ff;
+  height: 80%;
+  position: relative;
+  z-index: 2;
+  background: #00469a;
+  top: 110px;
+}
+#company-perks .container img {
+  position: absolute;
+  right: 22px;
+  top: -22px;
+  transform: rotate(0deg);
+  height: 440px;
+  transform: rotate(0deg);
+  left: 0;
+}
+#company-perks .container h1 {
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: bold !important;
+  font-size: 2.2rem;
+  padding: 15px;
+  background: #fdb927;
+  width: 100%;
+  height: 66px;
+  top: -67px;
+}
+#company-perks .container .ul-list {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 70, 154, 0.5);
+  z-index: 4;
+  position: absolute;
+  color: white;
+  letter-spacing: 3px;
+  top: 0px;
+  padding: 56px 46px 56px 0px;
+}
+#company-perks .container .ul-list ul {
+  list-style-type: square;
+  color: white;
+}
+#company-perks .container .ul-list ul li {
+  font-weight: 100;
+  margin: 10px 0;
+}
+#company-perks .container .ul-list ul li span {
+  font-weight: bold;
+}
+#company-perks .container .up-garage {
+  top: 20px;
+  z-index: 5 !important;
+  position: relative;
+  width: 100%;
+}
+
+/*----------END COMPANY-PERKS SECTION-------*/
+/* ------BEGIN AUTO REPAIR SECTION----- */
+#auto-repair {
+  height: 851px;
+  width: 100%;
+  background: white;
+}
+#auto-repair .container .main .header {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+#auto-repair .container .main .header h1 {
+  position: relative;
+  left: 39px;
+  font-size: 3rem;
+  background: white;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 50px;
+}
+#auto-repair .container .main .columns {
+  margin-top: 15px;
+}
+#auto-repair .container .main .left {
+  float: left;
+  height: 600px;
+  width: 33%;
+  line-height: 35px;
+}
+#auto-repair .container .main .middle {
+  float: left;
+  height: 600px;
+  width: 33%;
+  line-height: 35px;
+}
+#auto-repair .container .main .middle img {
+  height: 300px;
+  width: 90%;
+}
+#auto-repair .container .main .right {
+  float: left;
+  height: 600px;
+  width: 33%;
+  line-height: 40px;
+}
+#auto-repair .container .main .right .senior {
+  margin: 20px 0;
+}
+#auto-repair .container .main .right ul li {
+  list-style-type: square;
+}
+
+/*-------------END AUTO REPAIR SECTION ----------*/
+/* --------BEGIN OUR SERVICES SECTION----------*/
+#our-services .container .header {
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+#our-services .container .header h1 {
+  position: relative;
+  font-size: 3rem;
+  background: white;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  padding: 50px;
+  font-weight: 900;
+}
+#our-services .container .cards div {
+  background: #d3261f;
+  height: 200px;
+  width: 200px;
 }
 
 /*# sourceMappingURL=styles.css.map */
